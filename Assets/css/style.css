@@ -1,0 +1,75 @@
+body {
+    background-image: url("../images/dark_wood.png");
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 23px;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 125%;
+
+}
+.article{
+    background-color: bisque;
+    margin-left: auto;
+    margin-right: auto;
+    border: #666666;
+    border-style: solid;
+    border-width: 5px;
+    width: 1200px;
+    height: 50px;
+}
+#name{
+    background-color: #4aaaa5;
+    float:left;
+    width: 300px;
+    text-align: left;
+    height: 50px;
+}
+
+.section{
+    border-style: solid;
+    border-width: 5px;
+    border-color: bisque;
+    background-image: url("../images/upfeathers.png");
+    font-size: large; 
+    height: 480px;
+    width: 960px;
+    margin: 0 auto;
+}
+a:visited {
+    background-color: palevioletred;
+}
+a:hover{
+    background-color: yellowgreen;
+}
+a:active{
+    background-color: hotpink;
+}
+
+#footer{
+    background-color:#666666;
+    height: 50px;
+    text-align: center; 
+    padding-top: 15px;
+    font-size: 100%;;
+}
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+#nav{
+    float: right;
+}
+img {
+        border: 1px solid bisque;
+        border-radius: 50%;
+        padding: 5px;
+    }
+#photos{
+    width: 960px;
+    margin: 0 auto;
+}

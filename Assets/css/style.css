@@ -7,6 +7,19 @@ p {
     margin-right: auto;
     font-size: 23px;
 }
+#photos, #picture, #ThankYou {
+  animation-duration: 3s;
+  animation-name: fadeIn;}
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+}
 h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 125%;
@@ -72,16 +85,34 @@ img {
 #photos{
     width: 960px;
     margin: 0 auto;
-}
-@media (max-width:980px) {
-}
+}   
 
-@media (max-width:768px) {
-}
-
-@media (max-width:640px) {
+@media screen and (max-width:640px) {
     #header {
         position: fixed;
         top: 0;
     }
-}
+    .wrapper {
+        /* Box-model */
+        width: 100%;
+        padding: 20px;
+        }
+  
+    }
+    @media screen and (max-width:768px) {
+  
+        .wrapper {
+            /* Box-model */
+            width: 100%;
+            padding: 20px;
+          }  
+    
+    }
+    @media screen and (max-width:980px) {
+    
+        .wrapper {
+            /* Box-model */
+            width: 100%;
+            padding: 20px;
+          }  
+    }
